@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -27,18 +27,23 @@
         </ul>
       </nav>
 
-      <div class="header__logo">
-        <img
-          class="header__logo-image"
-          src="/images/logo-black.svg"
-          alt="Логотип"
-        />
-      </div>
-
+      <a class="header__logo-link">
+        <div class="header__logo">
+          <img
+            class="header__logo-image"
+            src="images/logo-black.svg"
+            alt="Логотип"
+          />
+        </div>
+      </a>
       <div class="address header__address">
         <ul class="address__list">
-          <li class="address__list-item-phone">+9 999 555 5555</li>
-          <li class="address__list-item-mail">info@sobaka.ge</li>
+          <li class="address__list-item-phone">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="address__list-item-mail">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
           <li class="address__list-item-address">
             наб. Принсенграхт 263-265, Амстердам
           </li>
@@ -161,8 +166,12 @@
     <footer class="footer">
       <div class="address">
         <ul class="address__list">
-          <li class="address__list-item-phone">+9 999 555 5555</li>
-          <li class="address__list-item-mail">info@sobaka.ge</li>
+          <li class="address__list-item-phone">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="address__list-item-mail">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
           <li class="address__list-item-address">
             наб. Принсенграхт 263-265, Амстердам
           </li>
@@ -188,7 +197,7 @@
             <img
               class="footer__social-icon"
               alt="Иконка YouTube"
-              src="/images/yt.svg"
+              src="images/yt.svg"
             />
           </a>
         </li>
@@ -197,7 +206,7 @@
             <img
               class="footer__social-icon"
               alt="Иконка VK"
-              src="/images/vk.svg"
+              src="images/vk.svg"
             />
           </a>
         </li>
@@ -206,7 +215,7 @@
             <img
               class="footer__social-icon"
               alt="Иконка Pinterest"
-              src="/images/pinterest.svg"
+              src="images/pinterest.svg"
             />
           </a>
         </li>
